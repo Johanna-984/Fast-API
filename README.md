@@ -2,29 +2,29 @@
 
 # Backend Engineering with FastAPI & Cloud Deployment ⚡
 
-Este repositorio contiene el desarrollo técnico y la arquitectura de APIs construidas. El enfoque principal fue la creación de sistemas backend robustos, seguros y listos para producción.
+This repository contains the technical development and API architecture built during the advanced course. The focus was on creating robust, secure, and production-ready backend systems.
 
-## 🎯 Foco del Proyecto
-Construir servicios backend de alto rendimiento que no solo procesen datos, sino que sean escalables mediante el uso de contenedores y servicios en la nube (AWS), integrando capas de seguridad industrial.
+## 🎯 Project Focus
+Building high-performance backend services that are not only data-efficient but also scalable through containerization and cloud services (AWS), integrating industry-standard security layers.
 
-## 🛠️ Stack Tecnológico
+## 🛠️ Tech Stack
 * **Framework:** FastAPI (Python)
-* **Base de Datos:** PostgreSQL & SQL (SQLAlchemy ORM)
-* **Seguridad:** Autenticación OAuth2 y JSON Web Tokens (JWT)
-* **DevOps & Despliegue:** Docker (Containerización) y AWS
-* **Testing:** Pruebas automatizadas para asegurar la confiabilidad de la API.
+* **Database:** PostgreSQL & SQL (SQLAlchemy ORM)
+* **Security:** OAuth2 Authentication and JSON Web Tokens (JWT)
+* **DevOps & Deployment:** Docker (Containerization) and AWS
+* **Testing:** Automated API testing to ensure application reliability.
 
-## 🧠 Capacidades Desarrolladas
-* **Diseño de APIs:** Creación de endpoints bajo estándares REST con validación automática de datos.
-* **Gestión de Datos:** Modelado de bases de datos relacionales y optimización de consultas en PostgreSQL.
-* **Seguridad de Grado Industrial:** Implementación de flujos de login seguros y protección de rutas.
-* **Infraestructura Moderna:** Empaquetado de aplicaciones en imágenes de Docker para garantizar la portabilidad entre entornos.
-* **Cloud Readiness:** Estrategias de despliegue en AWS para servicios escalables.
+## 🧠 Skills Acquired
+* **API Design:** Developing RESTful endpoints with automatic data validation (Pydantic).
+* **Data Management:** Relational database modeling and query optimization in PostgreSQL.
+* **Industry-Grade Security:** Implementing secure login flows and route protection.
+* **Modern Infrastructure:** Packaging applications into Docker images to ensure portability across environments.
+* **Cloud Readiness:** Deployment strategies on AWS for scalable web services.
 
-## 📁 Estructura
-* `/app`: Código fuente de la API (routers, schemas, models).
-* `/tests`: Suite de pruebas automatizadas.
-* `Dockerfile`: Configuración del contenedor para el despliegue.
-* `docker-compose.yml`: Orquestación de servicios (API + DB).
+## 📁 Repository Structure
+* `/app`: API source code (routers, schemas, models).
+* `/tests`: Automated testing suite.
+* `Dockerfile`: Container configuration for deployment.
+* `docker-compose.yml`: Service orchestration (API + Database).
 
 ---
